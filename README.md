@@ -54,6 +54,8 @@ If you want to have different regex flags for different regexes, or if you want 
 }
 ```
 
+If you want to set different decorations for different themes you can 
+
 Decoration values can also include placeholders like `$1` or `$2` that will be replaced with the content of the respective capturing group, enabling complex use cases like CSS colors highlighting.
 
 All the supported decoration options are defined [here](https://code.visualstudio.com/docs/extensionAPI/vscode-api#DecorationRenderOptions).
